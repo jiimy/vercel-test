@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       메인
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route path="sub" element={<Sub />} />
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
